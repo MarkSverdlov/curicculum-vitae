@@ -1,3 +1,4 @@
+% !TEX program = xelatex
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 %	The MIT License (MIT)
 %
@@ -120,7 +121,18 @@
     \end{minipage}    
     }
 
+%----------------------------------------------------------------------------------------
+%	HEBREW
+%----------------------------------------------------------------------------------------
+\usepackage{polyglossia}
 
+% Set the main language
+\setdefaultlanguage{english}
+% Set secondary language (optional, e.g., English)
+\setotherlanguage{hebrew}
+
+% Define Hebrew font (ensure it supports Hebrew characters)
+\newfontfamily{\hebrewfont}{David CLM}
 
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
@@ -181,6 +193,7 @@ Mathematically trained data scientist with experience in applied analytics, stat
     \item Led and supervised a small team of soldiers in administrative and financial tasks
     \item Contributed to the development and deployment of an IDF-wide procurement subsystem to improve financial tracking and transparency
     \item Designed and implemented standardized workflows for expense tracking and reporting
+    \item Recipient of the IDF Commanding Officer Excellence Award (\texthebrew{הצטיינות אלוף}), 2021
 \end{joblong}
 
 \section{Skills}
