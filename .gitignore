@@ -5,7 +5,9 @@
 *.fdb_latexmk
 *.fls
 *.log
+*.org
 *.out
+*.pdf
 *.run.xml
 *.synctex.gz
-*.pdf
+*.xdv
